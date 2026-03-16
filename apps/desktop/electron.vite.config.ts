@@ -7,5 +7,8 @@ export default defineConfig({
   renderer: {
     plugins: [react()],
     publicDir: 'src/renderer/public',
+    server: {
+      host: true
+    },
   },
 })
